@@ -1,13 +1,14 @@
 import React from "react"
 import Header from "../components/header"
-import Container from "../components/container.module.css"
+import Layout from "../components/layout"
 
 const AboutPage = () => (
-    <div className={Container.basicColor}>
-        <Header headerText="About Gatsby" />
-        <Header headerText="It's pretty cool" /> 
+    <Layout>
+        <Header headerText="About Me" />
+        <Header headerText="I'm pretty cool" /> 
+        <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
         <p>Such wow. Very React.</p>
-    </div>
+    </Layout>
 )
 
 export default AboutPage

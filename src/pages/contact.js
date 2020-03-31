@@ -1,14 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/layout"
 import Header from "../components/header"
-import Container from "../components/container.module.css"
 
 const ContactPage = () => (
-    <div className={Container.basicColor}>
-        <Link to="/" >Home</Link>
+    <Layout>
         <Header headerText="contact" />
-        <p>Send us a message!</p>
-    </div>
+        <Header headerText="I'd love to talk! Email me at the address below" />
+        <p>Send me a message!</p>
+        <p> <a href="mailto:ayeolakenny@gmail.com">ayeolakenny@gmail.com</a></p>
+    </Layout>
 )
 
 export default ContactPage 

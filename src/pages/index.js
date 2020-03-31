@@ -1,15 +1,14 @@
 import React from 'react'
-import { Link } from "gatsby"
 import Header from "../components/header"
-import Container from "../components/container.module.css"
+import Layout from "../components/layout"
 
 const IndexPage = () => (
-    <div className={Container.basicColor}>
-        <Link to="/contact/">Contact</Link>
-        <Header headerText="Hello Gatsby" />
+    <Layout>
+        <Header headerText="Hi! I'm building a fake Gatsby site as part of a tutorial!" />
+        <p>What do I like to do? Lots of course but definitely enjoy building websites.</p>
         <p>What a world</p>
         <img src="https://images.unsplash.com/photo-1558980664-10e7170b5df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-    </div>
+    </Layout>
 )
 
 export default IndexPage
