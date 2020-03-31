@@ -24,10 +24,15 @@ const Users = () => (
         excerpt="I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
       <User
-        username="Bob Smith"
+        username="John Doe"
         avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
-        excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        excerpt="I'm John Doe, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
       />
+      <User
+      username="Awele Osuka"
+      avatar="https://media-exp1.licdn.com/dms/image/C5603AQFFKzGboXFMSQ/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=ntKOOnqurDD9BY8xbbWZc8Szyfdr9WvVG2bzOHO7s3M"
+      excerpt="I'm Awele Osuka, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    />
     </Layout>
   </Container>
 )
