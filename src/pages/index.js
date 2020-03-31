@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Container from "../components/container.module.css"
 
 const IndexPage = () => (
-    <div style={{ color: `purple` }}>
+    <div className={Container.basicColor}>
         <Link to="/contact/">Contact</Link>
         <Header headerText="Hello Gatsby" />
         <p>What a world</p>

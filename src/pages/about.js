@@ -1,8 +1,9 @@
 import React from "react"
 import Header from "../components/header"
+import Container from "../components/container.module.css"
 
 const AboutPage = () => (
-    <div style={{ color: `teal` }}>
+    <div className={Container.basicColor}>
         <Header headerText="About Gatsby" />
         <Header headerText="It's pretty cool" /> 
         <p>Such wow. Very React.</p>
